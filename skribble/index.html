@@ -22,15 +22,15 @@
 </head>
 <body>
      <!- HOME--!>
-    <div class="home"> 
+    <div id="home" class="home"> 
         <div class="navbar navbar-dark bg-x">
              <a alt="" class="logo"> S K R I B B L E . A R T ' S </a>
              <nav> 
                   <ul id=menuList >
-                       <li><a href=""><b>HOME</b></a></li>
-                       <li><a href=""><b>ABOUT</b></a></li>
-                       <li><a href=""><b>WORK</b></a></li>
-                       <li><a href=""><b>CONTACT</b></a></li>
+                       <li><a href="#home"><b>HOME</b></a></li>
+                       <li><a href="z#about"><b>ABOUT</b></a></li>
+                       <li><a href="#work"><b>WORK</b></a></li>
+                       <li><a href="#contact"><b>CONTACT</b></a></li>
                   </ul>
              </nav>
              <img src="assets/menu.png" alt="=" class="menu-icon" onclick="togglemenu()">  
@@ -38,7 +38,7 @@
 
             <h1 class="hs">  S K R I B B L E  </h1>
             
-            <a href="#" class="btx">EXPLORE</a>
+            <a href="#about" class="btx">EXPLORE</a>
             <a class="ig" href="https://instagram.com/skribble_arts_?utm_medium=copy_link"> <img class="igx" src="assets/ig.png" href="https://instagram.com/skribble_arts_?utm_medium=copy_link" alt="">skribble_arts_</a>
             <img src="assets/picx.png" class="imgx" alt="">
              
@@ -47,7 +47,7 @@
         
 <!--About-->
 
-<div class="about ">
+<div id="about" class="about ">
      <div class="contaier-fluid"><h1 class="text-center abt-text"><b>ABOUT ME  |  WHO AM I ? </b></h1></div>
      <div class=" col-12 text-center  abt-inf">
           <h2>" I AM A FREELANCE SKETCH ARTIST "</h2>
@@ -68,12 +68,12 @@
           <p class="text-center">I use drawing / sketching as a primary language for capturing thoughts, exploring ideas, and then sharing those ideas. I can sketch realistic sketches with in few days. I offer services like Desiging Colored Portraits , Negative Inverted portraits , Pencil Sketches and much more !!! </p>   
      </div>
      <div class="btn btn-primary ml-4 text-center btxx">
-          MY WORK .
+         <a id="txxt" href="#work">MY WORK .</a> 
      </div>
 </div>
 
 <!--My Work -->
-<h1 class="text-center text-white bg-dark abt-txt">  M Y -  W O R K  </h1>
+<h1 id="work" class="text-center text-white bg-dark abt-txt">  M Y -  W O R K  </h1>
          <br>
 <div class="work container-fluid text-center  d-flex justify-content-center mb-3">
          
@@ -128,6 +128,58 @@
         </div>
          
 </div>
+</div>
+
+<!-- Contact Form  -->
+<h1 class="text-center text-white col-12 at-txt">   </h1>  
+  <br>
+<div id="contact" class="contact container-fluid text-center  d-flex justify-content-center mb-5">
+     <div id="carouselFade" class="carousel col-12" data-bs-ride="carousel">
+          <div class="carousel-inner ">
+               
+               <div class="carousel-item active  data-bs-interval="2000"">
+                    <div class="card text-white card-border-radius-9 bg-dark align-middle w-100 mm " style="width: 8rem;">
+                         <div class="card-body cw">
+                           <h3 class="card-title">Lets'S Connect !</h3>
+
+                           <form>
+
+                              <div class="mb-3">
+                                   <label for="name" class="form-label">Name</label>
+                                   <input type="name" class="form-control" id="name" aria-describedby="name">
+                                 </div>
+                              <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="email">
+                                <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+                              </div>
+                              <div class="mb-3">
+                                   <label for="msg" class="form-label">Message</label>
+                                   <input type="msg" class="form-control" id="msg" aria-describedby="msg">
+                                 </div>
+                        
+                              
+                              <button type="submit" class="btn btn-s"> S E N D </button>
+                            </form>
+                           
+
+                            <div class="social">
+                                   <a href="9834851259"><img class=" nn z" src="./assets/phone.png" alt=""></a>
+                                   <a href="https://wa.me/9834851259"><img class="z" src="./assets/whatsapp.png" alt=""></a>
+                                   <a href="https://instagram.com/skribble_arts_?utm_medium=copy_link"><img class="z " src="./assets/ig.png" alt=""></a>
+                            </div>
+                         </div>
+                       </div>
+                     </div>
+
+   
+
+          </div>
+         
+        </div>
+         
+</div>
+     <h1  class="text-center foot"> <strong><a  class="text-center footx" href="https://www.linkedin.com/in/SiddheshKamath">  &#169 PSYCHOSID  </a></strong></h1>
 </div>
 
 

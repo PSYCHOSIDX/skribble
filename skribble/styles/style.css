@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat , reapeat;
     background-size: cover;
     width:100%;
+    scroll-behavior: smooth;
 }
 
 .home{
@@ -15,6 +16,11 @@ body{
     margin-bottom:100vh;
 }
 
+#txxt{
+    text-decoration: none;
+    color:rgb(83, 83, 83);
+    margin: 0px;
+}
 
 .navbar{
     width: 100%;
@@ -104,7 +110,7 @@ padding: 10px 12px;
 border-radius: 12px;
 text-decoration: none;
 color: tomato;
-margin-right: -550px;
+margin-right: -650px;
 }
 
 .igx{
@@ -224,7 +230,7 @@ padding: 2px;
     color: #000000; 
 
     margin: 42px;
-    margin-left:90px ;
+    margin-left:35px ;
 
     
 }
@@ -244,9 +250,8 @@ padding: 2px;
 
 
 .work{
-    padding: 12px;
     width:100%;
-    height:120vh;
+    height:130vh;
     margin-top:-23px;
     background-color: #0000002c;
 background-image: linear-gradient(-45deg , rgba(78, 91, 105, 0.795) ,rgba(0, 255, 221, 0.692) , rgba(4, 85, 58, 0.863) , rgb(5, 68, 54) ) ;
@@ -270,7 +275,8 @@ background-blend-mode: lighten;
 }
 
 .cc{
-    width: 40%;
+    width: 30%;
+    border-radius: 19px;
 }
 
 .btn-c{
@@ -303,6 +309,102 @@ border-radius: 30px;
 animation: gradient 8s ease-in-out infinite;
 background-blend-mode: lighten;
 }
+
+
+
+
+
+
+/* contact */
+
+.contact{
+    width:100%;
+    height:100vh;
+    margin-top:100vh;
+    background-color: #0000002c;
+background-image: linear-gradient(-45deg , rgba(86, 22, 170, 0.795) ,rgba(251, 251, 251, 0.795), rgba(0, 96, 206, 0.863) , rgb(27, 27, 27) ) ;
+background-size: 400% 400%;
+animation: gradient 8s ease-in-out infinite;
+background-blend-mode: lighten;
+padding: 40px;
+
+}
+
+.btn-s{
+    padding: 12px, 28px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 2px#3131318c;
+    font-family :'Monserrat',sans-serif;
+    font-size: 10px;
+    color: white;
+    background: linear-gradient(75deg,rgb(114, 114, 114),rgba(0, 0, 0, 0.548));
+}
+
+.btn-s:hover{
+    background: linear-gradient(50deg,rgb(78, 76, 76),rgb(0, 0, 0));
+    color: #ffffff;
+}
+
+.cw{
+    margin: 20px;
+    border-radius: 9px;
+    color:white;
+    background-image: linear-gradient(45deg, rgba(112, 51, 211, 0.808), rgba(49, 143, 230, 0.623) ,rgba(77, 63, 207, 0.74) ,rgba(224, 224, 224, 0.924) );
+    color: #ffffff;
+    background-size: 400% 400%;
+animation: gradient 8s ease-in-out infinite;
+background-blend-mode: lighten;
+}
+
+
+
+
+.at-text{
+    color:white;
+    font-family: 'Montserrat',sans-serif;
+    margin: 19px;
+   padding-top: 30px;
+   margin-top: 400vh;
+}
+
+.social{
+    background-image: linear-gradient(55deg,rgba(0, 0, 0, 0.383),rgba(255, 255, 255, 0.383));
+    margin-top: 15px;
+}
+
+.z{
+    width:25px;
+    background:rgba(255, 255, 255, 0.609) ;
+    border-radius: 40px;
+    margin: 5px;
+}
+
+.z:hover{
+   background: white;
+}
+
+.nn{
+    width: 23px;
+}
+
+.foot{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin-top: -37px;
+    height: 11%;
+    text-decoration: none;
+}
+.footx{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+footer:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+
+
 
 /* MOBILE VIEW */
 @media only screen and ( max-width:700px){
@@ -356,7 +458,7 @@ background-blend-mode: lighten;
 .ig{
     margin-top: 250px;
     padding: 7px 12px;
-    margin-left: -570px;
+    margin-left: -670px;
 }
 .btx{
     margin-top: 450px;
@@ -396,6 +498,21 @@ background-blend-mode: lighten;
 .work{
     height: 70vh;
 }
+
+/*contact*/
+.contact{
+    margin-top: 65vh;
+    height: 60vh;
+}
+.foot{
+    margin-top: -70px;
+    height:5% ;
+    background-color: cornflowerblue;
+    color: white;
+
+}
+.footx{color: white;}
+
 }
 @media only screen and ( min-width:320px)
 {
