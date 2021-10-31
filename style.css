@@ -1,0 +1,592 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+/* CREDIT TO GIPHY FOR BG IMAGE :https://giphy.com/ */
+/*http://nikolarr.tumblr.com/*/
+body{
+    background-image: url('https://media.giphy.com/media/3o7abyKEbFsKtII0Eg/giphy.gif?cid=ecf05e47827302e0eab9022fcc555787212999b967af0d9a&rid=giphy.gif&ct=g');
+    background-repeat: no-repeat , reapeat;
+    background-size: cover;
+    width:100%;
+    scroll-behavior: 2s smooth;
+    font-family: Montserrat;
+    overflow: hidden;
+}
+
+
+html {
+  font-size: 62.5%; /*  1rem = 10px  */
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+/* nav style start*/
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  text-decoration: none;
+
+  backdrop-filter: blur(1.9rem) saturate(200%);
+  -webkit-backdrop-filter: blur(1.9rem) saturate(200%);
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: .2rem;
+  border: .1rem solid rgba(255, 255, 255, 0.125);
+}
+
+.navbar a{ text-decoration: none; color: white; }
+
+
+.menu-icon {
+  width: 2rem;
+  cursor: pointer;
+  display: none;
+  background: rgba(255, 255, 255, 0.534);
+  border-radius: 9rem;
+  padding: 1.2rem;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  z-index: 2;
+  justify-content: center;
+}
+
+
+nav ul li {
+  display: inline-block;
+  margin-right: 3rem;
+  margin-top: -2rem;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  padding: 1rem 1rem;
+  
+  font-size: 1.7rem;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgba(43, 43, 43, 0.733);
+  background-color: rgba(255, 255, 255, 0.74);
+  border-radius:1rem;
+  margin: 0rem;
+}
+
+/*nav end*/
+
+
+
+.color{
+    height:8vh;
+    background: linear-gradient(
+        
+        80deg,
+        #dacb0054 0%,
+        #ff440077 25%,
+        #dc27427a 50%,
+        #23ccc483 75%,
+        #39029165 100%
+      );
+     
+}
+
+
+.color-w{
+  height:10vh;
+  background: linear-gradient(
+      
+      80deg,
+      #00da3ed0 0%,
+      #c8ff00d2 25%,
+      #0592fde2 50%,
+      #23ccc483 75%,
+      #701cf7dc 100%
+    );
+   
+}
+
+/*main*/
+
+    
+   
+
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    border-radius: 3rem;
+    margin: 1rem;
+    overflow: hidden;
+    background: linear-gradient(
+        
+        45deg,
+        #0000008a 0%,
+        #9b9b9b82 25%,
+        #9191917a 50%,
+        #373535ef 75%,
+        #1a1a1adb 100%
+      );
+      
+      animation: gradient 5s ease infinite;
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+}
+.left{
+    margin: auto;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 8rem;
+    color: white;
+    background: linear-gradient(
+        
+        45deg,
+        #f0953354 0%,
+        #e6693c77 25%,
+        #dc27427a 50%,
+        #cc236783 75%,
+        #bc188865 100%
+      );
+      
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.name:hover{
+    border: .1rem solid rgba(255, 255, 255, 0.678);
+    border-radius: .4rem;
+    background: linear-gradient(315deg, #f0f0f0, #cacaca);
+    box-shadow:  -5px -5px 22px #b3b3b3,
+                 5px 5px 22px #ffffff;
+      color: grey;
+      cursor: pointer;
+}
+
+.btn-grey{
+    border-radius: .2rem;
+background: linear-gradient(315deg, #f0f0f0, #cacaca);
+box-shadow:  -24px -24px 48px #d9d9d9,
+             24px 24px 48px #e7e7e7;
+             font-size:3rem;
+             text-decoration: none;
+             text-align: center;
+             font-family: poppins;
+             color: black;
+             margin: 2rem;
+
+}
+
+.btn-grey:hover{
+    background: rgba(0, 0, 0, 0.568);
+    color: white;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.right{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    border-radius: 100rem;
+    width:57%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-insta{
+    border-radius: 1rem;
+background: linear-gradient(315deg, #a01562, #c57c1d);
+text-decoration: none;
+width: 60%;
+margin: auto;
+color: white;
+font-size: 1.7rem;
+text-align: center;
+
+margin-bottom: 2rem;
+
+}
+
+.btn-insta:hover{
+    background: rgba(255, 255, 255, 0.568);
+    color: rgb(0, 0, 0);
+    box-shadow: none;
+}
+.img-icon{
+    width: 22%;
+}
+
+
+.btn-mail{
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.568);
+text-decoration: none;
+width: 60%;
+margin: auto;
+color: rgb(0, 0, 0);
+font-size: 1.7rem;
+text-align: center;
+padding: 2rem;
+
+margin-bottom: 2rem;
+
+}
+
+.btn-mail:hover{
+  
+  background: linear-gradient(315deg, #6115a0, #b71dc5);
+  color: rgb(255, 255, 255);
+  box-shadow: none;
+}
+.img-icon{
+  width: 22%;
+}
+
+
+
+/*About me*/
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin: auto;
+    padding: 1rem;
+
+    background: linear-gradient(
+        
+        45deg,
+        #33f0edcb 0%,
+        #3c56e6c9 25%,
+        #4827dcc4 50%,
+        #b823ccc7 75%,
+        #36004bc7 100%
+      );
+      
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.abt-left
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 3rem;
+}
+
+.intro{
+    font-size: 8rem;
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.emoji{
+    margin: auto;
+    width:40rem;
+    padding: 1rem;
+    
+    box-shadow:  -24px -24px 4rem #d9d9d9,
+             24px 24px 4rem #e7e7e7;
+             border-radius: 30rem;
+}
+
+.abt-right{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.text-title{
+    color: white;
+    text-align: center;
+    font-size: 9rem;
+}
+
+.text-para{
+    color: white;
+    margin: auto;
+    font-size: 2.2rem;
+}
+
+/*Works*/
+
+
+.works{
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+flex-direction: row;
+    background: linear-gradient(
+        
+        45deg,
+        #878787cb 0%,
+        #4d4d4d 25%,
+        #727272 50%,
+        #313131c7 75%,
+        #0a0a0a 100%
+        
+      );
+}
+
+.x{
+  font-family: poppins;
+  text-align: center;
+  font-size: 4.4rem;
+}
+
+.ig{
+  margin: auto;
+  width:22rem;
+  height: 22rem;
+  text-align: center;
+  margin: auto;
+  background: linear-gradient(   
+    45deg,
+    #edf033cb 0%,
+    #e6803cc9 25%,
+    #cd27dcc4 50%,
+    #e100ffc7 75%,
+    #36004bc7 100%
+  );
+margin: 1rem;
+  padding:1rem;
+  border-radius: 20rem;
+}
+
+
+.yt{
+  margin: auto;
+  width:22rem;
+  height: 22rem;
+  text-align: center;
+  margin: auto;
+  background: linear-gradient(   
+    45deg,
+    #090909cb 0%,
+    #bb4f07c9 25%,
+    #dc2745c4 50%,
+    #ff0000c7 75%,
+    #ff0000c7 100%
+  );
+margin: 1rem;
+  padding:1rem;
+  border-radius: 20rem;
+}
+
+
+
+.wt{
+  margin: auto;
+  width:22rem;
+  height: 22rem;
+  text-align: center;
+  margin: auto;
+  background: linear-gradient(   
+    45deg,
+    #43f033cb 0%,
+    #3ce650c9 25%,
+    #27dc72c4 50%,
+    #088f13c7 75%,
+    #00a700c7 100%
+  );
+
+  
+margin: 1rem;
+  padding:1rem;
+  border-radius: 20rem;
+}
+.fa{
+  color: white;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.works h2{
+color: white;
+margin: auto;
+}
+
+.works a{
+  text-decoration: none;
+}
+
+
+
+
+.ig:hover{
+  background: rgba(170, 170, 170, 0.849);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.yt:hover{
+  background: rgba(170, 170, 170, 0.849);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.wt:hover{
+  background: rgba(170, 170, 170, 0.849);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.image{
+    padding: 1rem;
+    margin: auto;
+    align-self:center;
+    width: 50%;
+   
+}
+
+
+
+.footer{
+    align-content: center;
+    margin-top: auto;
+    text-decoration: none;
+    color: white;
+  backdrop-filter: blur(1.9rem) saturate(200%);
+  -webkit-backdrop-filter: blur(1.9rem) saturate(200%);
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: .2rem;
+  border: .1rem solid rgba(255, 255, 255, 0.125);
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* MOBILE VIEW */
+@media ( max-width:900px){
+   .main{
+       margin: .2rem;
+   }
+    .menu-icon{width: 6rem; background-color: rgba(70, 20, 151, 0);}
+     .navbar a h2{
+        font-size: 1.6rem;
+        height: 2.6rem;
+
+     }
+     
+      nav ul {
+        width: 100%;
+        backdrop-filter: blur(12px) saturate(200%);
+        -webkit-backdrop-filter: blur(12px) saturate(200%);
+        background-color: rgba(0, 0, 0, 0.822);
+        position: absolute;
+        border-bottom: 0.1rem solid rgba(255, 255, 255, 0.05);
+    
+        top: 6rem;
+        right: 0;
+        z-index: 2;
+      }
+    
+      nav ul li {
+        display: block;
+        margin-top: 1rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+      }
+      nav ul li a {
+        color: white;
+        font-size: 2rem;
+        padding: 0.1rem;
+        margin-right: -2rem;
+      }
+      .menu-icon {
+        display: block;
+        margin-right: 1rem;
+        margin-top: -1.5rem;
+      }
+    
+      #menuList {
+        overflow: hidden;
+        transition: 0.5s;
+      }
+    
+
+      .main{
+          flex-direction: column-reverse;
+          border-radius: 0ch;
+      }
+   
+      .btn-grey{
+          border-radius: 1rem;
+          padding: .7rem;
+          width: 25rem;
+          margin: auto;
+      }
+      
+      .name{
+        text-align: center;
+        font-size: 2.8rem;
+        padding: 2.6rem;
+        
+      }
+
+.btn-mail{
+  padding: 1rem;
+}
+.btn-insta{
+  padding: 1rem;
+}
+
+
+.about-me{
+    flex-direction: column;
+}
+.intro{
+    font-size: 4rem;
+}
+.emoji{
+    width: 20rem;
+}
+.text-title{
+    font-size: 4.5rem;
+}
+.x{
+  text-align: center;
+  font-size: 4rem;
+}
+.works{
+  flex-direction: column;
+}
+
+}
