@@ -588,6 +588,7 @@ margin: auto;
 }
 .works{
   flex-direction: column;
+margin:.3rem;
 }
 
 }
