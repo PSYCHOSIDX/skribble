@@ -280,7 +280,7 @@ margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    margin: auto;
+    margin:1rem;
     padding: 1rem;
 
     background: linear-gradient(
@@ -360,6 +360,7 @@ flex-direction: row;
        
         
       );
+margin:1rem;
 }
 
 .x{
@@ -555,6 +556,7 @@ margin: auto;
       .main{
           flex-direction: column-reverse;
           border-radius: 0ch;
+margin:.3rem;
       }
    
       .btn-grey{
@@ -597,6 +599,9 @@ margin: auto;
 }
 .works{
   flex-direction: column;
+margin:.3rem;
+}
+.about-me{
 margin:.3rem;
 }
 .color-w{height:4rem;}
