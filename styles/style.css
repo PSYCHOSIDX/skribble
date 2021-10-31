@@ -344,13 +344,13 @@ margin-bottom: 2rem;
     justify-content: center;
 flex-direction: row;
     background: linear-gradient(
-        
-        45deg,
-        #878787cb 0%,
-        #4d4d4d 25%,
-        #727272 50%,
-        #313131c7 75%,
-        #0a0a0a 100%
+       45deg,
+        #0000008a 0%,
+        #9b9b9b82 25%,
+        #9191917a 50%,
+        #373535ef 75%,
+        #1a1a1adb 100% 
+       
         
       );
 }
