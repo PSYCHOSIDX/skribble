@@ -98,7 +98,7 @@ margin-left:1.3rem;
 
 
 .color-w{
-  height:8vh;
+  height:9vh;
   background: linear-gradient(
       
       80deg,
@@ -108,11 +108,13 @@ margin-left:1.3rem;
       #23ccc483 75%,
       #701cf7dc 100%
     );
+    text-align:center;
    margin:auto;
 font-size : 2rem;
 align-content: center;
     text-decoration: none;
 }
+.color-w h2{font-size:4rem;}
 
 /*main*/
 
