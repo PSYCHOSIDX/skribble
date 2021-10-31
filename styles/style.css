@@ -359,7 +359,10 @@ flex-direction: row;
 .x{
   font-family: poppins;
   text-align: center;
-  font-size: 4.4rem;
+  font-size: 4rem;
+align-content: center;
+    margin-top: auto;
+    text-decoration: none;
 }
 
 .ig{
