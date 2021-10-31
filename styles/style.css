@@ -107,6 +107,9 @@ nav ul li a:hover {
     );
    margin:auto;
 font-size : 2rem;
+align-content: center;
+    margin-top: auto;
+    text-decoration: none;
 }
 
 /*main*/
