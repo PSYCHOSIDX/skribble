@@ -95,7 +95,7 @@ nav ul li a:hover {
 
 
 .color-w{
-  height:7.5vh;
+  height:7vh;
   background: linear-gradient(
       
       80deg,
@@ -106,7 +106,7 @@ nav ul li a:hover {
       #701cf7dc 100%
     );
    margin:auto;
-font-size : 3rem;
+font-size : 2rem;
 }
 
 /*main*/
