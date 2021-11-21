@@ -389,7 +389,7 @@ align-content: center;
   );
 margin: 1rem;
   padding:1rem;
-  border-radius: 20rem;
+  border-radius: 2rem;
 }
 
 
@@ -409,7 +409,7 @@ margin: 1rem;
   );
 margin: 1rem;
   padding:1rem;
-  border-radius: 20rem;
+  border-radius: 2rem;
 }
 
 
@@ -432,7 +432,7 @@ margin: 1rem;
   
 margin: 1rem;
   padding:1rem;
-  border-radius: 20rem;
+  border-radius: 2rem;
 }
 .fa{
   color: white;
